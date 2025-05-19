@@ -1,14 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Imagem from '../assets/Emilia_icon1.jpg'
+import Imagem from '../assets/logo.png'
 
 const Nav = () => {
   return (
     <>
       <header className='flex items-center justify-between bg-[#b0c4de] h-24'> 
       <div className='flex item-center gap-4'>  
-        <img className='w-16 h-16 rounded-full' src={Imagem} alt="Icone da loja" />
-        <h1 className='text-3xl font-semibold mt-3'>Mangá Society</h1>
+        <img className='w-60 rounded-full mx-5' src={Imagem} alt="Icone da loja" />
       </div>
 
         <nav className='flex gap-4 p-4 underline'>
