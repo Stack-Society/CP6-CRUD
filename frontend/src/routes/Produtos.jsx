@@ -160,6 +160,7 @@ const Produtos = () => {
               <p className="text-sm text-gray-600">Gênero: {prod.genero.join(", ")}</p>
               <p className="text-sm text-gray-600">Preço: R$ {prod.preco}</p>
               <p className="text-sm text-gray-600 mb-2">Descrição: {prod.descricao}</p>
+              <p className="text-sm text-gray-600 mb-2">Estoque: {prod.estoque}</p>
 
               <button className="bg-purple-600 text-white px-4 py-2 rounded hover:bg-purple-700 w-full mb-2">
                 Adicionar ao carrinho
