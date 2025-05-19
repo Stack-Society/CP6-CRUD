@@ -16,14 +16,14 @@
   {
     "id": 2,
     "titulo": "Bleach",
+    "autor": "Tite Kubo",
+    "preco": 23.5,
     "genero": [
       "Shounen",
       "Ação",
       "Aventura"
     ],
-    "autor": "Tite Kubo",
-    "descricao": "Um jovem chamado Ichigo Kurosaki entra para o mundo dos shinigamis",
-    "preco": 64.5,
+    "descricao": "Acompanhe a história de Ichigo Kurosaki, um jovem estudante que acaba entrando para o mundo dos shinigamis",
     "imagem": "/bleach-remix.jpg",
     "estoque": 14
   },
