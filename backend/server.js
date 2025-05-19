@@ -12,7 +12,7 @@ app.use(express.static('static'));
 
 const filePath = path.join(__dirname, 'data', 'dados.json');
 
-// 🟢 GET - listar produtos
+// GET - listar produtos
 app.get('/produtos', async (req, res) => {
   try {
     const data = await fs.readFile(filePath, 'utf-8');
@@ -24,7 +24,7 @@ app.get('/produtos', async (req, res) => {
   }
 });
 
-// 🟡 POST - criar novo produto
+// POST - criar novo produto
 app.post('/produtos', async (req, res) => {
   try {
     const data = await fs.readFile(filePath, 'utf-8');
@@ -38,7 +38,7 @@ app.post('/produtos', async (req, res) => {
   }
 });
 
-// 🟠 PUT - editar produto
+// PUT - editar produto
 app.put('/produtos/:id', async (req, res) => {
   try {
     const data = await fs.readFile(filePath, 'utf-8');
@@ -58,7 +58,7 @@ app.put('/produtos/:id', async (req, res) => {
   }
 });
 
-// 🔴 DELETE - excluir produto
+// DELETE - excluir produto
 app.delete('/produtos/:id', async (req, res) => {
   try {
     const data = await fs.readFile(filePath, 'utf-8');
@@ -77,7 +77,6 @@ app.delete('/produtos/:id', async (req, res) => {
   }
 });
 
-// Simulador de carrinho (já estava)
 app.post('/adicionar', (req, res) => {
   const { produtoId, quantidade } = req.body;
   console.log(`Produto ${produtoId} adicionado ao carrinho com quantidade: ${quantidade}`);
