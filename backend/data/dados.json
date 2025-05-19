@@ -1,0 +1,75 @@
+[
+    {
+        "id": 1,
+        "titulo": "Naruto",
+        "genero": ["Shounen", "Ação", "Aventura"],
+        "autor": "Masashi Kishimoto",
+        "descricao": "Um jovem ninja com um sonho de se tornar Hokage",
+        "preco": 29.90,
+        "imagem": "/naruto-vol-1.jpg",
+        "estoque": 20
+    },
+    {
+        "id": 2,
+        "titulo": "Bleach",
+        "genero": ["Shounen", "Ação", "Aventura"],
+        "autor": "Tite Kubo",
+        "descricao": "Um jovem chamado Ichigo Kurosaki entra para o mundo dos shinigamis",
+        "preco": 64.50,
+        "imagem": "/bleach-remix.jpg"
+    },
+    {
+        "id": 3,
+        "titulo": "Kaguya-sama: Love is War",
+        "genero": ["Comédia romântica", "Juventude", "Vida escolar"],
+        "autor": "Akasaka Aka",
+        "descricao": "Uma garota chamada Shinomiya entra em guerra em nome do amor contra seu colega Shirogane",
+        "preco": 23.40,
+        "imagem": "/kaguya-vol-1.jpg"
+    },
+    {
+        "id": 4,
+        "titulo": "Re:Zero Kara Hajimeru Isekai Seikatsu",
+        "genero": ["Isekai", "Romance", "Drama", "Ação"],
+        "autor": "Tappei Nagatsuki",
+        "descricao": "Um jovem chamado Subaru é invocado em outro mundo e encontra Emilia, uma meia-elfa.",
+        "preco": 20.50,
+        "imagem": "/rezero-vol-1.jpg"
+    },
+    {
+        "id": 5,
+        "titulo": "Dragon Ball Z",
+        "genero": ["Ação", "Shounen", "Drama", "Aventura"],
+        "autor": "Akira Toriyama",
+        "descricao": "Continue a jornada do grande sayajin, Goku.",
+        "preco": 44.22,
+        "imagem": "/dragonball-vol-1.jpg"
+    },
+    {
+        "id": 6,
+        "titulo": "Berserk",
+        "genero": ["Seinen", "Ação", "Fantasia sombria", "Drama", "Psicológico"],
+        "autor": "Kentaro Miura",
+        "descricao": "Acompanha a jornada de Guts, um guerreiro marcado por uma infância brutal e uma vida cheia de tragédias.",
+        "preco": 30.66,
+        "imagem": "/berserk-vol-1.jpg" 
+    },
+    {
+        "id": 7,
+        "titulo": "Jujutsu Kaisen",
+        "genero": ["Seinen", "Ação", "Drama"],
+        "autor": "Gege Akutami",
+        "descricao": "Em um mundo cheio de maldições. Um jovem chamado Yuuji Itadori entra para o mundo dos feiticeiros Jujutsu.",
+        "preco": 23.44,
+        "imagem": "/jujutsu-vol-26.jpg"
+    },
+    {
+        "id": 8,
+        "titulo": "Fairy Tail",
+        "genero": ["Shounen", "Ação", "Aventura", "Fantasia", "Comédia", "Magia"],
+        "autor": "Hiro Mashima",
+        "descricao": "A história acompanha Lucy Heartfilia, uma jovem maga celestial que sonha em entrar para a famosa guilda Fairy Tail.",
+        "preco": 26.40,
+        "imagem": "/fairytail-vol-1.jpg"
+    }
+]
